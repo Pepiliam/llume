@@ -3,23 +3,15 @@
     background-color: rgb(250, 239, 217);
 }
 
-.div__h1 {
+.h1mot {
     text-align: center;
     background-color: rgb(250, 239, 217);
     color: #344893;
     text-align: center;
     margin-bottom: 35px;
-    text-shadow: 5px 5px 12px #e1b735
-}
-
-
-.h2form {
-    color: #e1b735;
-    text-align: center;
-    font-size: 50px;
-    margin-bottom: 35px;
-    text-shadow: 5px 5px 12px black;
-    font-family: "gfs didot";
+    text-shadow: 5px 5px 12px #e1b735;
+    padding-top: 20px;
+            font-size: 40px;
 }
 
 input {
@@ -27,17 +19,26 @@ input {
 }
 
 input:focus {
-    font-size: 35px;
+    font-size: 15px;
     border: 5px solid rgb(250, 239, 217);
     color: rgb(122, 84, 8)
 }
 
 .contenedorform {
     height: auto;
-    background-color: #344893;
+    background-color: rgb(250, 239, 217);
     border: 2px solid #e1b735;
     width: 80%;
     margin: auto;
     padding: 2%;
     text-align: center;
 }
+
+@media only screen and (max-width: 570px) {
+    .div--background{padding-top: 20px}
+    .h1mot {
+        padding-top: 270px;
+        font-size: 40px;
+        ;
+                  }
+  }

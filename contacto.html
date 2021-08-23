@@ -65,19 +65,18 @@
             </ul>
         </nav>
         <div class="div div--background">
-            <h1 class="div__h1 div__h1--color">Contacto</h1>
+            <h1 class="h1mot">Contacto</h1>
 
             <div class="contenedorform" class="form-group">
                 <form action="enviar.php" method="post" enctype="application/x-www-form-urlencoded">
-                    <h2 class="h2form">Completa Aquí!</h2>
-                    <input type="text" class="form-control" required placeholder="Nombre y Apellido"><br>
+                                        <input type="text" class="form-control" required placeholder="Nombre y Apellido"><br>
                     <input type="date" class="form-control" placeholder="Edad"> <br>
-                    <input type="email" class="form-control" required placeholder="Mail"><br>
-                    <textarea class="container-fluid" name="Consulta" id="consul" Cols="30" rows="10"
-                        placeholder="Dejame tu consulta!"></textarea> </textarea><br>
-                    <button type="submit" class="btn btn-primary">
+                    <input type="email" class="form-control" required placeholder="Email"><br>
+                    <textarea class="form-control container-fluid" name="Consulta" id="consul" Cols="30" rows="10"
+                    required placeholder="Dejame tu consulta!"></textarea><br>
+                    <button type="submit" class="btn btn-outline-info">
                         <input type="submit" values="Enviar!" class="btn btn-default"></button>
-                    <button type="submit" class="btn btn-danger">
+                    <button type="submit" class="btn btn-outline-warning">
                         <input type="reset" value="Borrar todo" class="btn btn-default"></button>
                 </form>
             </div>

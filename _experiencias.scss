@@ -1,10 +1,24 @@
-.contenedorExper {
-    width: 100%;
+.main1 {
+    background-color: rgb(250, 239, 217);
+    background-position: center;
+    background-size: cover;
     height: 100%;
-    background-color: rgb(14, 45, 136);
-    padding: 20px;
-    display: flex;
-    justify-content: wrap;
+    width: 100%;
+
+}
+
+#contenedorExper {
+    background-position: center;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: "didot gfs";
+    font-size: larger;
+    color: #2a3d81;
+                  display: grid;
+        grid-template-columns: 50% 50%;
+    
+    
 }
 
 .h1mot {
@@ -14,32 +28,12 @@
 
 }
 
-.items {
-    padding-top: 20px;
-    height: 670px;
-    width: 350px;
-    background-color: rgb(250, 239, 217);
-    text-align: center;
-    line-height: 20px;
-    font-family: "gfs didot";
+@media only screen and (max-width: 570px) {
+    .main1 {
+        padding-top: 20px
+    }
 
-}
-
-.btn {
-    border: 2px solid #e1b735
-}
-
-#analisis,
-#armado,
-#personal,
-#proyeccion,
-#colorimetria {
-    height: 60%;
-    width: 90%;
-}
-
-
-.items h2 {
-    color: #344893;
-    font-size: 23px
+    .h1mot {
+        font-size: 40px;
+    }
 }
