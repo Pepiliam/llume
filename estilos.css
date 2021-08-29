@@ -172,6 +172,7 @@ h1 {
     padding-top: 270px;
   }
   #imghome {
+    margin-top: 15px;
     height: 100%;
     width: 70%;
   }
@@ -235,10 +236,12 @@ h1 {
   font-family: "didot gfs";
   font-size: larger;
   color: #2a3d81;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 50% 50%;
-      grid-template-columns: 50% 50%;
+  height: auto;
+  background-color: #faefd9;
+  border: 2px solid #e1b735;
+  width: 80%;
+  margin: auto;
+  padding: 2%;
 }
 
 .h1mot {
@@ -251,8 +254,23 @@ h1 {
   .main1 {
     padding-top: 20px;
   }
+  #contenedorExper {
+    font-size: larger;
+  }
+  #imgExp {
+    height: 90%;
+    width: 90%;
+    text-align: center;
+    background-position: center;
+  }
   .h1mot {
     font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 715px) {
+  #contenedorExper {
+    font-size: medium;
   }
 }
 

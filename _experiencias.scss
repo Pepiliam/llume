@@ -4,7 +4,6 @@
     background-size: cover;
     height: 100%;
     width: 100%;
-
 }
 
 #contenedorExper {
@@ -15,17 +14,18 @@
     font-family: "didot gfs";
     font-size: larger;
     color: #2a3d81;
-                  display: grid;
-        grid-template-columns: 50% 50%;
-    
-    
+    height: auto;
+    background-color: rgb(250, 239, 217);
+    border: 2px solid #e1b735;
+    width: 80%;
+    margin: auto;
+    padding: 2%;
 }
 
 .h1mot {
     color: #344893;
     text-align: center;
     text-shadow: 2px 2px 6px #e1b735;
-
 }
 
 @media only screen and (max-width: 570px) {
@@ -33,7 +33,27 @@
         padding-top: 20px
     }
 
+    #contenedorExper {
+        font-size: larger;
+    }
+
+    #imgExp {
+        height: 90%;
+        width: 90%;
+        text-align: center;
+        background-position: center;
+    }
+
     .h1mot {
         font-size: 40px;
+    }
+
+
+}
+
+@media only screen and (max-width: 715px) {
+
+    #contenedorExper {
+        font-size: medium;
     }
 }

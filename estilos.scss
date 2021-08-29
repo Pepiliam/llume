@@ -157,17 +157,25 @@ h1 {
 }
 
 @media only screen and (max-width: 570px) {
-    #imghome{margin-bottom: 50px;}
-    .h1home{font-size: 40px;}
+    #imghome {
+        margin-bottom: 50px;
+    }
+
+    .h1home {
+        font-size: 40px;
+    }
+
     .mainhome {
         padding-top: 270px;
-        }
-        #imghome {
-            height: 100%;
-            width: 70%;
-            
-        }
-  }
+    }
+
+    #imghome {
+        margin-top: 15px;
+        height: 100%;
+        width: 70%;
+
+    }
+}
 
 /*-----------------SOBRE LLUME------------------*/
 
