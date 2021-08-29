@@ -177,6 +177,60 @@ h1 {
     }
 }
 
+@media only screen and (min-width: 576px) and (max-width: 585px) {
+    li {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 892px) {
+    header {
+        background-color: rgb(250, 239, 217);
+        width: 100%;
+        height: 160px;
+    }
+
+    nav {
+        width: 90%;
+        height: 100%;
+        text-align: left;
+        color: rgb(228, 217, 250);
+        padding-left: 8%;
+        padding-right: 0%;
+    }
+
+    ul {
+        list-style: none;
+        background-color: rgb(250, 239, 217);
+        border: 4px solid rgb(250, 239, 188);
+        font-family: "gfs didot";
+        text-align: center;
+    }
+
+    li {
+        font-size: 16px;
+
+    }
+
+    .subitem {
+        text-align: left;
+        display: inline-block;
+        font-size: 15px;
+        width: 280px;
+    }
+
+    .logoNav {
+        width: 80%;
+        height: 80%
+    }
+}
+
+@media only screen and (min-width: 846px) and (max-width: 892px) {
+    li {
+        font-size: 18px;
+    }
+}
+
 /*-----------------SOBRE LLUME------------------*/
 
 @import "sobrellume";
